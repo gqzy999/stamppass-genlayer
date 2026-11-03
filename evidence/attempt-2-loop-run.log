@@ -1,0 +1,147 @@
+deployed: 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735 tx: 0xe6c872b9383eda9e5de47897528a1a40ff142ea263a1adba7bbb63d1fdd86b31
+create-A SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+verify-A SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+create-B SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+verify-B SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+create-C SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+verify-C SUCCESS 0xCC8f7C6dD161d97f64675D0f8967D71d246C8735
+receipt for failed ERROR step: {
+  "mode": "leader",
+  "vote": null,
+  "result": {
+    "raw": "AURVUExJQ0FURV9DTEFJTQ==",
+    "status": "rollback",
+    "payload": "DUPLICATE_CLAIM"
+  },
+  "calldata": {
+    "base64": "FgRhcmdzJXRleGFtcGxlIGRvbWFpblQyMDI2LTExLTAxnAFodHRwczovL2V4YW1wbGUuY29tlAFEdXBsaWNhdGUgYXR0ZW1wdC4GbWV0aG9khAFjbGFpbV9hdHRlbmRhbmNl",
+    "raw": [
+      22,
+      4,
+      97,
+      114,
+      103,
+      115,
+      37,
+      116,
+      101,
+      120,
+      97,
+      109,
+      112,
+      108,
+      101,
+      32,
+      100,
+      111,
+      109,
+      97,
+      105,
+      110,
+      84,
+      50,
+      48,
+      50,
+      54,
+      45,
+      49,
+      49,
+      45,
+      48,
+      49,
+      156,
+      1,
+      104,
+      116,
+      116,
+      112,
+      115,
+      58,
+      47,
+      47,
+      101,
+      120,
+      97,
+      109,
+      112,
+      108,
+      101,
+      46,
+      99,
+      111,
+      109,
+      148,
+      1,
+      68,
+      117,
+      112,
+      108,
+      105,
+      99,
+      97,
+      116,
+      101,
+      32,
+      97,
+      116,
+      116,
+      101,
+      109,
+      112,
+      116,
+      46,
+      6,
+      109,
+      101,
+      116,
+      104,
+      111,
+      100,
+      132,
+      1,
+      99,
+      108,
+      97,
+      105,
+      109,
+      95,
+      97,
+      116,
+      116,
+      101,
+      110,
+      100,
+      97,
+      110,
+      99,
+      101
+    ],
+    "readable": "{\"args\":[\"example domain\",\"2026-11-01\",\"https://example.com\",\"Duplicate attempt.\",]\"method\":\"claim_attendance\"}"
+  },
+  "gas_used": 0,
+  "eq_outputs": {},
+  "node_config": {
+    "stake": 100,
+    "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+    "primary_model": {
+      "model": "policy:prd-gpt-oss",
+      "config": {
+        "policy_ir": [
+          "policy",
+          [
+            "and",
+            [
+              "meets_req"
+            ],
+            [
+              "not",
+              [
+                "is",
+                "disabled"
+              ]
+         
+LOOP FAILED: Error: duplicate-A: expected code DUPLICATE_CLAIM in exec=ERROR error=null
+    at write (file:///home/hatch/workspace/build-stamppass-genlayer/scripts/verify-loop.mjs:106:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (file:///home/hatch/workspace/build-stamppass-genlayer/scripts/verify-loop.mjs:172:3)
+LOOP_EXIT=1

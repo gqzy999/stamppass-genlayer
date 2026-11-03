@@ -1,0 +1,29 @@
+PASS repo contract sha matches loop :: 86b62f3503d185935be67ffe45d17e1cff80833b9a7ca9d93b1925db066e54d2
+PASS deployment.json sha matches loop :: 86b62f3503d185935be67ffe45d17e1cff80833b9a7ca9d93b1925db066e54d2
+PASS deployment.json address matches loop :: 0x026ECEb13c0b40522237E0168C6518dda82e7C44
+PASS deployment.json verified flag :: true
+PASS deploy tx FINALIZED :: 7
+PASS deploy tx contract address :: 0x026ECEb13c0b40522237E0168C6518dda82e7C44
+PASS deploy tx execution SUCCESS :: SUCCESS
+PASS counts claims 36 :: {"claims":36,"stamps":2,"pending":33,"stamped":2,"unverified":1}
+PASS counts stamps 2 :: {"claims":36,"stamps":2,"pending":33,"stamped":2,"unverified":1}
+PASS counts pending 33 :: {"claims":36,"stamps":2,"pending":33,"stamped":2,"unverified":1}
+PASS counts stamped 2 :: {"claims":36,"stamps":2,"pending":33,"stamped":2,"unverified":1}
+PASS counts unverified 1 :: {"claims":36,"stamps":2,"pending":33,"stamped":2,"unverified":1}
+PASS passport total 2 :: 2
+PASS passport distinct 2 :: 2
+PASS passport recent 2 :: 2
+PASS passport latest 2026-11-04 :: 2026-11-04
+PASS passport milestones :: ["First Stamp"]
+PASS passport stamps :: [{"stamp_id":"stamp-1","claimer":"0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71","event_name":"Example Domain","event_date":"2026-11-01","claim_id":"claim-1"},{"stamp_id":"stamp-2","claimer":"0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71","event_name":"Example","event_date":"2026-11-04","claim_id":"claim-4"}]
+PASS streaks total 2 :: 2
+PASS streaks latest 2026-11-04 :: 2026-11-04
+PASS stamp-1 event :: {"stamp_id":"stamp-1","claimer":"0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71","event_name":"Example Domain","event_date":"2026-11-01","claim_id":"claim-1"}
+PASS stamp-2 event :: {"stamp_id":"stamp-2","claimer":"0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71","event_name":"Example","event_date":"2026-11-04","claim_id":"claim-4"}
+PASS claim-2 UNVERIFIED :: UNVERIFIED
+PASS claim-3 PENDING fail-closed :: PENDING
+PASS claimer claims 4 :: 4
+PASS capper claims 32 :: 32
+PASS all loop txs re-verified FINALIZED with matching results :: 46 txs
+INDEPENDENT CHECK: ALL PASS
+INDEPENDENT_EXIT=0

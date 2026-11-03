@@ -1,0 +1,17 @@
+{
+  "name": "stamppass-frontend",
+  "version": "1.0.0",
+  "description": "StampPass passport-book frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "genlayer-js": "^1.1.8",
+    "vite": "^8.3.5"
+  }
+}

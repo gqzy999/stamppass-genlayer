@@ -1,0 +1,63 @@
+{
+  "contractAddress": "0xCC8f7C6dD161d97f64675D0f8967D71d246C8735",
+  "deployTx": "0xe6c872b9383eda9e5de47897528a1a40ff142ea263a1adba7bbb63d1fdd86b31",
+  "sourceSha256": "86b62f3503d185935be67ffe45d17e1cff80833b9a7ca9d93b1925db066e54d2",
+  "chainId": 61999,
+  "verified": false,
+  "accounts": {
+    "claimer": "0x5b4d096ae9a697794a2ae262fa83B3B0FAd4FBaD",
+    "capper": "0x543F2de5966Ce64e2e9F17a490A7bFFe3EfdC0D2"
+  },
+  "steps": [
+    {
+      "label": "deploy",
+      "hash": "0xe6c872b9383eda9e5de47897528a1a40ff142ea263a1adba7bbb63d1fdd86b31",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "create-A",
+      "hash": "0x7f7174defc4bda2e52669bc8ffb9acfbbfdcc73f2ac569dbf7b31e98a35843ad",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "verify-A",
+      "hash": "0xbe257ed3e99e12fda10ad0809596f481c15716bc31b6eb3db00c2f30e66314a7",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "create-B",
+      "hash": "0x4b66731261345f5fbb3fa8dc918853fd9e5eee27af78451050c732b9adcab544",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "verify-B",
+      "hash": "0xc93651d24da106d1e79c2ca363d85c0c68cc1408f8d1faac8eef9e885fdbae63",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "create-C",
+      "hash": "0x7f63898a3a1aac64ec0406cd4bcaca0b10d68c35d285d78df3d0cc22e9d93331",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "verify-C",
+      "hash": "0x2a73bbe4fad94f569c30cd1227e7e47df6c5cd49686ddb0a2be4c0ee3394678e",
+      "executionResult": "SUCCESS",
+      "error": null
+    },
+    {
+      "label": "duplicate-A",
+      "hash": "0x8ca5d79e57ef37b2d48408e6dc69fcdc117a477953915bfe80946c466af699fc",
+      "executionResult": "ERROR",
+      "error": null
+    }
+  ],
+  "finalCounts": null,
+  "finalPassport": null
+}

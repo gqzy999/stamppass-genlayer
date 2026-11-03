@@ -1,0 +1,593 @@
+{
+  "project": "StampPass",
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contractAddress": "0x026ECEb13c0b40522237E0168C6518dda82e7C44",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x026ECEb13c0b40522237E0168C6518dda82e7C44",
+  "deployTx": "0x64ed6280d06b0aff0db2fea347e8e5faf52a82a8652571678e76c0f231a7cb13",
+  "sourceFile": "contracts/stamppass.py",
+  "sourceSha256": "86b62f3503d185935be67ffe45d17e1cff80833b9a7ca9d93b1925db066e54d2",
+  "verified": true,
+  "loop": {
+    "steps": [
+      {
+        "label": "deploy",
+        "hash": "0x64ed6280d06b0aff0db2fea347e8e5faf52a82a8652571678e76c0f231a7cb13",
+        "executionResult": "SUCCESS",
+        "resultPayload": null
+      },
+      {
+        "label": "create-A",
+        "hash": "0x9175e8fc39ecaa2a522e6fd5221d0a3749a7d48eaa9d4d3ba0f08908f0985d59",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "verify-A",
+        "hash": "0x2d1c6f3480ad9012b7bfcc41a89c71b89aeed70895e3f4d4de7eaf59997a85b9",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "create-B",
+        "hash": "0x9611de75a2178e481d0934f3587374615fae7cd35d43ce7f700bfc1a465ccc58",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "verify-B",
+        "hash": "0xdd10a8d8356e8b9cb41d8fec5e536d56f4e99a95844d1dea48ebbcc7c20a9b6a",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "create-C",
+        "hash": "0x6e8c9f445cb001549b1ada04c5b49fa96be96de343ca0d55cefbde35c6fba144",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "verify-C",
+        "hash": "0xfaeb110968258dc5c80fdb48b294353662eb523b9b7dd083e389312b02c93759",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "duplicate-A",
+        "hash": "0xb063d218d0775c49514114fe3c3bc750f694b7b613d07984225ba60dd7dec1c3",
+        "executionResult": "ERROR",
+        "resultPayload": "DUPLICATE_CLAIM"
+      },
+      {
+        "label": "create-D",
+        "hash": "0x026779cc6b5045e80af7264754423ef20c546b21b1eb09bdb30f0074c55c89b4",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "verify-D",
+        "hash": "0x499db01d89b5374d8f71888357d8118cf37dda1fa306dd8699ba5c00e79a9a65",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-1",
+        "hash": "0xba3b3773f6fc28dcd77c06332795f9d9f9d16f94c1fff09d993f4fe4e593ad54",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-2",
+        "hash": "0x3b31062a5d4b9e1b16f5344f5e70ed22ee809d67f35b347b65f8df3dfaa5535a",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-3",
+        "hash": "0x65197282448f1e97b14e8391d72742a202e2fad9fc91d47d9eb9cd736cd65439",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-4",
+        "hash": "0x4564436c19e7e05fc8100317feec8cde3ab1f88e9e59ea75b355af6b7abcf1c6",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-5",
+        "hash": "0x622dca998d3dba8ff58466611ee1e01dce3a6ee252dc34fe42c8310457003844",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-6",
+        "hash": "0x3f3b7d5870b2ff930a70d7f6e45db32df47e46ab58435af96b2f6518bb51fb3e",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-7",
+        "hash": "0x64aee5724b6e88c6ae1d1c8561fab8c0d9cfaaf37a228d042873528ecc3fb24c",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-8",
+        "hash": "0x9da4a00e6eb23691c11181486a87256e176a3f0411a2cfb2d2aa8df0ff6caa42",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-9",
+        "hash": "0x88552189b74b4044ce8969e149924de41fb798b7e8fe8205988135d109a7c654",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-10",
+        "hash": "0x7060f3e82acfdcedf0e0309ecf16bd1ddecc169a2c662c4b41a5090570814f2f",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-11",
+        "hash": "0x2d9c295caf06a447c42d335b04644cb29ef88c519509e322e9a3d1850acccb06",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-12",
+        "hash": "0x0a815e9aeaf1439773b1265f1fc56a12aaf7fb930c25f8dda95cc16238aef9e8",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-13",
+        "hash": "0x1f21e7d62bc2af28658ceef4bb7296a6b0e1545e6982f24ec11d24ccdf002933",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-14",
+        "hash": "0x36469e71be3668a5c282d1fae07b8c2ca3b9384e0cb4e90f0f9d16a7413828e6",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-15",
+        "hash": "0xb750674cf2296830c64ddb6a464396d9d4502e8eaa8808e47052b795d9c05561",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-16",
+        "hash": "0xc9904a74b52518f36e6b9305ee80ef76678428d582d50dfdbfeaa19d90902917",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-17",
+        "hash": "0xcaed999d1fce851ec5f66064021e8086a50ebd1844ec08439570251f1620fe9c",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-18",
+        "hash": "0x811453572b823f7cbce0159e5a126359f68eaf33dfd14d3b6cce1d04ad0bb81e",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-19",
+        "hash": "0xee8b78347a6ecb2d903cd8c8b986321bd9be33958a452d71a13f997b5aa37af6",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-20",
+        "hash": "0xe3ea449a8e5883fba707a31e22873575bc0fcee14df48988bdf61c2f620a7438",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-21",
+        "hash": "0x017c91e58884ec1f227cb0fd119be53f65eda1b14cc647aa1b821d261a2002b4",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-22",
+        "hash": "0x298a1aec3da3b9d12f4e79f451199c884ddd69dfa8840d1389344dc82fb3eb61",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-23",
+        "hash": "0x784045056140a963ae8057e69b708d5d40d453c1568a9c85cf71374385441e03",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-24",
+        "hash": "0x47d4a34fde68f81157d2f93888577ce34739cb9c1d2f475a1892636cdba60fb2",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-25",
+        "hash": "0x7144b965a9ce21c8c0b0f7c8c94ca19a0f951e5906b2fd6b56d6dd9e149fcd2a",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-26",
+        "hash": "0x1e27bb8230bffa87956d8c08122e2bde3b550b1dee1bec04ad0f25376f55a3a9",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-27",
+        "hash": "0xc9f7b59e5e13712110667a99179edb2e95c3c4a9a3b7a282d3426acf5dbe4031",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-28",
+        "hash": "0xab1b58ba19d024dc67cadf1886ade5cd1b2c5b19977a6728c2abfb93ea3a8359",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-29",
+        "hash": "0x3d713ca8cf0bf119aa2f93da3ea7b8e7832cc1711c67304ec7354d10c2ae0a85",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-30",
+        "hash": "0xd71bd1e9210b570fc410d81b3c658c1006b3580e6a90194d56e92645594ed188",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-31",
+        "hash": "0xe4b83fbbf5873834918c3e159c4b147085f8520a6b3355a646aa614b659706d6",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-32",
+        "hash": "0xfdf92bdbd3ec047382241323fd852afc40da6f35edb0d844cac2ba8d7c7e065a",
+        "executionResult": "SUCCESS",
+        "resultPayload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      {
+        "label": "cap-claim-33",
+        "hash": "0x32d960d4007048ce33201280abcc56b54fbdefad8680a9afa234fa8386a5acac",
+        "executionResult": "ERROR",
+        "resultPayload": "CAP_REACHED"
+      },
+      {
+        "label": "invalid-date",
+        "hash": "0x61a13564fcee089ae8b3d6c42883a2cdd7b37acf8c3ac49430085a8a7f9af5de",
+        "executionResult": "ERROR",
+        "resultPayload": "INVALID_INPUT"
+      },
+      {
+        "label": "verify-missing",
+        "hash": "0x22915d008fc54e1fae58502cc977f4171b38ea35828ed14fa4d94ff8e9b3f1fb",
+        "executionResult": "ERROR",
+        "resultPayload": "NOT_FOUND"
+      },
+      {
+        "label": "verify-stamped-again",
+        "hash": "0x195c244dff3795ba78e8928244631a7a9de3bb77bc0ae6391e611c6f722539fe",
+        "executionResult": "ERROR",
+        "resultPayload": "INVALID_STATUS"
+      }
+    ],
+    "stepCount": 46,
+    "finalCounts": {
+      "claims": 36,
+      "stamps": 2,
+      "pending": 33,
+      "stamped": 2,
+      "unverified": 1
+    },
+    "finalPassport": {
+      "claimer": "0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71",
+      "total_stamps": 2,
+      "distinct_events": 2,
+      "stamps_last_30d": 2,
+      "latest_event_date": "2026-11-04",
+      "milestones": [
+        "First Stamp"
+      ],
+      "stamps": [
+        {
+          "stamp_id": "stamp-1",
+          "claimer": "0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71",
+          "event_name": "Example Domain",
+          "event_date": "2026-11-01",
+          "claim_id": "claim-1"
+        },
+        {
+          "stamp_id": "stamp-2",
+          "claimer": "0x4a57b8dc518f0170bbba968f920e7f89dc7c6f71",
+          "event_name": "Example",
+          "event_date": "2026-11-04",
+          "claim_id": "claim-4"
+        }
+      ]
+    },
+    "accounts": {
+      "claimer": "0x4a57b8dC518f0170BBBA968f920E7F89DC7C6f71",
+      "capper": "0xfc61be2EAa4e92cFF04F285B84C653f9484247e5",
+      "note": "Ephemeral script accounts; keys held in memory only, never written to disk."
+    }
+  },
+  "independentCheck": {
+    "allPass": true,
+    "checkCount": 27,
+    "txsReverified": 46,
+    "mismatches": 0
+  },
+  "keyTransactions": {
+    "deploy": "0x64ed6280d06b0aff0db2fea347e8e5faf52a82a8652571678e76c0f231a7cb13",
+    "verifyA_STAMPED": "0x2d1c6f3480ad9012b7bfcc41a89c71b89aeed70895e3f4d4de7eaf59997a85b9",
+    "verifyB_UNVERIFIED": "0xdd10a8d8356e8b9cb41d8fec5e536d56f4e99a95844d1dea48ebbcc7c20a9b6a",
+    "verifyC_failClosed_PENDING": "0xfaeb110968258dc5c80fdb48b294353662eb523b9b7dd083e389312b02c93759",
+    "duplicateA_DUPLICATE_CLAIM": "0xb063d218d0775c49514114fe3c3bc750f694b7b613d07984225ba60dd7dec1c3",
+    "cap33_CAP_REACHED": "0x32d960d4007048ce33201280abcc56b54fbdefad8680a9afa234fa8386a5acac",
+    "invalidDate_INVALID_INPUT": "0x61a13564fcee089ae8b3d6c42883a2cdd7b37acf8c3ac49430085a8a7f9af5de",
+    "verifyMissing_NOT_FOUND": "0x22915d008fc54e1fae58502cc977f4171b38ea35828ed14fa4d94ff8e9b3f1fb",
+    "verifyStampedAgain_INVALID_STATUS": "0x195c244dff3795ba78e8928244631a7a9de3bb77bc0ae6391e611c6f722539fe"
+  },
+  "honestLimits": [
+    "A stamp attests that validators agreed the evidence page references the event. It is not cryptographic proof of physical presence.",
+    "Evidence must be a public https page. Event dates are supplied by the claimer. Stamps, once added, are never overwritten.",
+    "The last-30-days count is measured from the passport most recent stamp date, because the chain has no wall clock.",
+    "The contract holds no funds and no escrow.",
+    "Real extension-wallet signing, real-device rendering, and a UI-driven fresh claim flow were not personally verified in this build; the write paths were proven end-to-end by script to FINALIZED and read back.",
+    "Live-site browser rendering is verified by the parent step, not in this build."
+  ],
+  "attempts": [
+    {
+      "n": 1,
+      "outcome": "deploy FINALIZED/ERROR",
+      "deployTx": "0x9201789312f47b6808fa39900aa5fd261c21d16d8013a2d22572036fdd00be89",
+      "cause": "GenVM runner reported no contract defined: the contract class used @allow_storage but did not subclass gl.Contract, which is what registers the class as the contract. No contract was created by this tx.",
+      "files": [
+        "evidence/attempt-1-deploy-no-contract.json",
+        "evidence/attempt-1-loop-run.log"
+      ]
+    },
+    {
+      "n": 2,
+      "outcome": "deploy FINALIZED/SUCCESS, loop stopped at duplicate-A assertion",
+      "deployTx": "0xe6c872b9383eda9e5de47897528a1a40ff142ea263a1adba7bbb63d1fdd86b31",
+      "contractAddress": "0xCC8f7C6dD161d97f64675D0f8967D71d246C8735",
+      "cause": "Script assertion bug, not a contract failure: the duplicate tx correctly finalized as ERROR with DUPLICATE_CLAIM, but the script only searched execution_result and .error (empty for UserError rejections) and missed result.payload. Steps through duplicate-A in this attempt are valid partial evidence; the canonical deployment is attempt 3.",
+      "files": [
+        "evidence/attempt-2-duplicate-payload.json",
+        "evidence/attempt-2-loop-run.log"
+      ]
+    },
+    {
+      "n": 3,
+      "outcome": "full loop VERIFIED, 46 steps",
+      "deployTx": "0x64ed6280d06b0aff0db2fea347e8e5faf52a82a8652571678e76c0f231a7cb13",
+      "contractAddress": "0x026ECEb13c0b40522237E0168C6518dda82e7C44",
+      "files": [
+        "evidence/loop-flow.json",
+        "evidence/loop-run.log",
+        "evidence/deployment.json",
+        "evidence/independent-check.json"
+      ]
+    }
+  ],
+  "receiptShapeNote": "On this network, a UserError rejection finalizes as ERROR with an empty .error field; the guard code is carried in leader_receipt[0].result.payload (for example DUPLICATE_CLAIM), and SUCCESS steps carry a null result payload. Guard proofs therefore rest on FINALIZED status, the payload code, and state readbacks showing no change.",
+  "contractRegistrationNote": "The contract class must subclass gl.Contract. @allow_storage alone only marks the class for storage use; it does not register the class as the contract, and the GenVM runner then fails deployment with no contract defined. Local direct tests do not enforce this, so they cannot prove Studionet acceptance on this point."
+}

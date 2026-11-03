@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>StampPass — Attendance passport</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">STAMPPASS</div>
+      <p class="tagline" data-i18n="tagline"></p>
+      <p class="chain-note" data-i18n="chainNote"></p>
+      <div class="toprow">
+        <button class="lang-btn" id="lang-en">EN</button>
+        <button class="lang-btn" id="lang-zh">中文</button>
+        <button class="btn" id="wallet-connect" data-i18n="connectBtn"></button>
+        <button class="btn" id="wallet-ephemeral" data-i18n="ephemeralBtn"></button>
+        <button class="btn" id="wallet-disconnect" data-i18n="disconnectBtn" style="display:none"></button>
+      </div>
+      <div class="wallet-box">
+        <div class="addr" id="wallet-status"></div>
+        <div class="wallet-kind" id="wallet-kind"></div>
+        <div class="chain-warning" id="chain-warning" style="display:none">
+          <span data-i18n="wrongChain"></span>
+          <button class="btn" id="chain-switch" data-i18n="switchChainBtn"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2 data-i18n="trustTitle"></h2>
+      <label class="field">
+        <span data-i18n="contractLabel"></span>
+        <input id="contract-input" class="mono" autocomplete="off" />
+      </label>
+      <div class="row">
+        <button class="btn primary" id="contract-use" data-i18n="useContractBtn"></button>
+        <a class="btn" id="contract-explorer" target="_blank" rel="noreferrer" data-i18n="explorerBtn"></a>
+      </div>
+      <p class="mono" id="contract-display"></p>
+      <label class="field">
+        <span data-i18n="holderLabel"></span>
+        <input id="holder-input" class="mono" autocomplete="off" />
+      </label>
+      <div class="row">
+        <button class="btn primary" id="holder-open" data-i18n="coverOpen"></button>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="bookTitle"></h2>
+      <div class="book" id="book">
+        <div class="book-page" id="book-page"></div>
+        <div class="book-nav" id="book-nav">
+          <button class="btn" id="book-nav-prev" data-i18n="pagePrev"></button>
+          <span class="page-indicator" id="book-page-indicator"></span>
+          <button class="btn" id="book-nav-next" data-i18n="pageNext"></button>
+          <span class="spacer"></span>
+          <button class="btn" id="book-back-cover" data-i18n="backToCover"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 data-i18n="countsTitle"></h2>
+      <div class="counts-grid">
+        <div><b id="counts-claims">–</b><span data-i18n="countsClaims"></span></div>
+        <div><b id="counts-stamps">–</b><span data-i18n="countsStamps"></span></div>
+        <div><b id="counts-pending">–</b><span data-i18n="countsPending"></span></div>
+        <div><b id="counts-stamped">–</b><span data-i18n="countsStamped"></span></div>
+        <div><b id="counts-unverified">–</b><span data-i18n="countsUnverified"></span></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 data-i18n="claimTitle"></h2>
+      <p class="muted" data-i18n="claimHint"></p>
+      <form id="claim-form">
+        <label class="field">
+          <span data-i18n="claimEvent"></span>
+          <input id="claim-event" required maxlength="100" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span data-i18n="claimDate"></span>
+          <input id="claim-date" type="date" required />
+        </label>
+        <label class="field">
+          <span data-i18n="claimUrl"></span>
+          <input id="claim-url" type="url" required placeholder="https://" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span data-i18n="claimNote"></span>
+          <input id="claim-note" maxlength="500" autocomplete="off" />
+        </label>
+        <button class="btn primary" type="submit" data-i18n="claimSubmit"></button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2 data-i18n="verifyTitle"></h2>
+      <p class="muted" data-i18n="verifyHint"></p>
+      <label class="field">
+        <span data-i18n="verifyManual"></span>
+        <input id="verify-id" class="mono" placeholder="claim-1" autocomplete="off" />
+      </label>
+      <button class="btn primary" id="verify-manual-btn" data-i18n="verifyManualBtn"></button>
+    </section>
+
+    <section class="panel reveal">
+      <h2 data-i18n="howTitle"></h2>
+      <p data-i18n="how1"></p>
+      <p data-i18n="how2"></p>
+      <p data-i18n="how3"></p>
+      <p data-i18n="how4"></p>
+    </section>
+
+    <section class="panel reveal">
+      <h2 data-i18n="limitsTitle"></h2>
+      <p data-i18n="limitsText"></p>
+    </section>
+
+    <section class="panel reveal">
+      <h2 data-i18n="milestonesTitle"></h2>
+      <p><span class="ms" data-i18n="msFirst"></span> · <span class="ms" data-i18n="msCollector"></span> · <span class="ms" data-i18n="msGlobe"></span> · <span class="ms" data-i18n="msTraveler"></span></p>
+      <p class="muted" data-i18n="chainNote"></p>
+    </section>
+  </main>
+
+  <div class="toasts" id="toasts"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

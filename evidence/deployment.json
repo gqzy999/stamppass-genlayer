@@ -1,0 +1,15 @@
+{
+  "contractAddress": "0x026ECEb13c0b40522237E0168C6518dda82e7C44",
+  "network": "studionet",
+  "chainId": 61999,
+  "sourceSha256": "86b62f3503d185935be67ffe45d17e1cff80833b9a7ca9d93b1925db066e54d2",
+  "deployTx": "0x64ed6280d06b0aff0db2fea347e8e5faf52a82a8652571678e76c0f231a7cb13",
+  "counts": {
+    "claims": 36,
+    "stamps": 2,
+    "pending": 33,
+    "stamped": 2,
+    "unverified": 1
+  },
+  "verified": true
+}

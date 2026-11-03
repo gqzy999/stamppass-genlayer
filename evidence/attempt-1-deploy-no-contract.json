@@ -1,0 +1,21 @@
+{
+  "contractAddress": "0xc9C8e5EcCeb3e0EF53492Ced24372eFcc9F2F995",
+  "deployTx": "0x9201789312f47b6808fa39900aa5fd261c21d16d8013a2d22572036fdd00be89",
+  "sourceSha256": "96f294b6579cb8e8304fe4316a198e00a6880b02d792c9a277c5a19fe28f2b98",
+  "chainId": 61999,
+  "verified": false,
+  "accounts": {
+    "claimer": "0x465f0d67e981e2617c9126E83f2c46a7432FAa5d",
+    "capper": "0x413836bEbA435253f45698e1D8332595aEAa0618"
+  },
+  "steps": [
+    {
+      "label": "deploy",
+      "hash": "0x9201789312f47b6808fa39900aa5fd261c21d16d8013a2d22572036fdd00be89",
+      "executionResult": "ERROR",
+      "error": null
+    }
+  ],
+  "finalCounts": null,
+  "finalPassport": null
+}

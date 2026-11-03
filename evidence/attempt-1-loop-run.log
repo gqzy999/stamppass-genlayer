@@ -1,0 +1,5 @@
+LOOP FAILED: Error: deploy execution: expected "SUCCESS", got "ERROR"
+    at assertEq (file:///home/hatch/workspace/build-stamppass-genlayer/scripts/verify-loop.mjs:34:11)
+    at main (file:///home/hatch/workspace/build-stamppass-genlayer/scripts/verify-loop.mjs:143:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+LOOP_EXIT=1
